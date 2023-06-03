@@ -89,6 +89,10 @@ a {
   font-size: 1.6rem;
   color: #2f3a3b;
 }
+.header .nav-bar .list .items.active {
+  font-weight: 600;
+}
+
 .header .nav-bar .list .items:hover,
 .header .nav-bar .sign-in:hover {
   text-shadow: 1px 0 0 currentColor;
@@ -396,6 +400,9 @@ a {
   background: #d0efed;
   opacity: 0.35;
   border-radius: 8px;
+}
+.popular .items .thumb:hover {
+  opacity: 1;
 }
 .popular .list .infor {
   position: absolute;
